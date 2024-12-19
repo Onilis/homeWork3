@@ -1,7 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 class homeWork3 {
     public static void main(String[] args) {
         int a1 = 38500940;
