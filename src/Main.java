@@ -23,32 +23,31 @@ class homeWork3 {
         int studentAnnaSergeevna = 27;
         int studentEkaterinaAndreevna = 30;
         int purchasedSecurities = 480;
-        int perStudent =purchasedSecurities/(23+27+30);
+        int perStudent = purchasedSecurities / (23 + 27 + 30);
         System.out.println("На каждого ученика рассчитано " + perStudent + " листов бумаги");
         System.out.println();
 
         int machinePerformance2min = 16;
-        int min1 = machinePerformance2min/2;
+        int min1 = machinePerformance2min / 2;
         int min20 = min1 * 20;
-        int day = min1 * (60*24);
+        int day = min1 * (60 * 24);
         int day3 = day * 3;
         int month = day * 30;
 
-        System.out.println("За 1 минуту машина произвела " + min1+ " штук бутылок");
-        System.out.println("За 20 минут машина произвела " + min20+ " штук бутылок");
-        System.out.println("За 1 день машина произвела " + day+ " штук бутылок");
-        System.out.println("За 3 дня машина произвела " + day3+ " штук бутылок");
-        System.out.println("За 1 месяц машина произвела " + month+ " штук бутылок");
+        System.out.println("За 1 минуту машина произвела " + min1 + " штук бутылок");
+        System.out.println("За 20 минут машина произвела " + min20 + " штук бутылок");
+        System.out.println("За 1 день машина произвела " + day + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + day3 + " штук бутылок");
+        System.out.println("За 1 месяц машина произвела " + month + " штук бутылок");
         System.out.println();
 
         int totalPaints = 120;
         int whitePaintClass = 2;
         int brownPaintClass = 4;
-        int totalClasses = totalPaints/(2+4);
-        int whitePaintTotal = totalClasses *  whitePaintClass;
+        int totalClasses = totalPaints / (2 + 4);
+        int whitePaintTotal = totalClasses * whitePaintClass;
         int brownPaintTotal = totalClasses * brownPaintClass;
-        System.out.println("В школе, где " + totalClasses+ " классов, нужно "+ whitePaintTotal+ " банок белой краски и " + brownPaintTotal + " банок коричневой краски");
-
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + whitePaintTotal + " банок белой краски и " + brownPaintTotal + " банок коричневой краски");
 
 
         int bananas = 5;
@@ -62,7 +61,7 @@ class homeWork3 {
         int rawEggs1 = 70;
 
         int totalBananas = bananas * bananas1;
-        int totalMilk = milk100ml *2;
+        int totalMilk = milk100ml * 2;
         int totalIceCreamBriquettes = iceCreamBriquettes * iceCream;
         int totalRawEggs = rawEggs * rawEggs1;
         int blenderGramm = totalBananas + totalMilk + totalIceCreamBriquettes + totalRawEggs;
@@ -77,8 +76,8 @@ class homeWork3 {
         double weightLoss1 = 0.500;
         double weight = needToReset / weightLoss;
         double weight1 = needToReset / weightLoss1;
-        System.out.println("Если терять в весе 250 грамм в день, то можно похудеть за "+ weight+ " дней. ");
-        System.out.println("Если терять в весе 500 грамм в день, то можно похудеть за "+ weight1+ " дней. ");
+        System.out.println("Если терять в весе 250 грамм в день, то можно похудеть за " + weight + " дней. ");
+        System.out.println("Если терять в весе 500 грамм в день, то можно похудеть за " + weight1 + " дней. ");
         System.out.println();
 
 
@@ -92,9 +91,9 @@ class homeWork3 {
         float increasedMasha = newSalaryMasha + salaryMasha;
         float increasedDenis = newSalaryDenis + salaryDenis;
         float increasedKristina = newSalaryKristina + salaryKristina;
-        System.out.println("У Маши была такая " +salaryMasha+ " зарплата. Ее повысили на " +newSalaryMasha+ " руб. И теперь она получает "+increasedMasha+" руб. ");
-        System.out.println("У Дениса была такая " +salaryDenis+ " зарплата. Ее повысили на " +newSalaryDenis+ " руб. И теперь она получает "+increasedDenis+" руб. ");
-        System.out.println("У Кристины была такая " +salaryKristina+ " зарплата. Ее повысили на " +newSalaryKristina+ " руб. И теперь она получает " + increasedKristina+ " руб. ");
+        System.out.println("У Маши была такая " + salaryMasha + " зарплата. Ее повысили на " + newSalaryMasha + " руб. И теперь она получает " + increasedMasha + " руб. ");
+        System.out.println("У Дениса была такая " + salaryDenis + " зарплата. Ее повысили на " + newSalaryDenis + " руб. И теперь она получает " + increasedDenis + " руб. ");
+        System.out.println("У Кристины была такая " + salaryKristina + " зарплата. Ее повысили на " + newSalaryKristina + " руб. И теперь она получает " + increasedKristina + " руб. ");
 
     }
 }
